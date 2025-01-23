@@ -1,12 +1,88 @@
 <!DOCTYPE html>
-<html lang=“cs”>
+<html lang="cs">
 <head>
-  <meta charset=“UTF-8”>
-  <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
-  <title>mam krec v noze</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studijní stránka</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #dcedc8; /* Barevné pozadí */
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            background-color: #ffffff; /* Bílá barva pro buňky */
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 sloupce */
+            gap: 10px;
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        .grid img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            background-color: #ffffff;
+        }
+
+        footer {
+            text-align: center;
+            color: red;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+    </style>
 </head>
 <body>
-  <h1>bolí mě noha!</h1>
-  <p>delam tohle poprvy jsem fakt husta.</p>
+    <div class="container">
+        <!-- Tabulka -->
+        <table>
+            <tr>
+                <td>Buňka 1</td>
+                <td>Buňka 2</td>
+                <td>Buňka 3</td>
+            </tr>
+            <tr>
+                <td>Buňka 4</td>
+                <td>Buňka 5</td>
+                <td>Buňka 6</td>
+            </tr>
+        </table>
+
+        <!-- Obrázky -->
+        <div class="grid">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gmvv.cz%2Finformace%2Fnasi-lide%2Fpedagogicky-sbor%2Fitem%2F2908-miroslav-vilcek&psig=AOvVaw10L0HbJbHIt0GUnIxzB4gh&ust=1737731286365000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCh1dSPjIsDFQAAAAAdAAAAABAE" alt="Obrázek 1">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gmvv.cz%2Finformace%2Fnasi-lide%2Fpedagogicky-sbor%2Fitem%2F2908-miroslav-vilcek&psig=AOvVaw10L0HbJbHIt0GUnIxzB4gh&ust=1737731286365000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCh1dSPjIsDFQAAAAAdAAAAABAE" alt="Obrázek 2">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gmvv.cz%2Finformace%2Fnasi-lide%2Fpedagogicky-sbor%2Fitem%2F2908-miroslav-vilcek&psig=AOvVaw10L0HbJbHIt0GUnIxzB4gh&ust=1737731286365000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCh1dSPjIsDFQAAAAAdAAAAABAE" alt="Obrázek 3">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gmvv.cz%2Finformace%2Fnasi-lide%2Fpedagogicky-sbor%2Fitem%2F2908-miroslav-vilcek&psig=AOvVaw10L0HbJbHIt0GUnIxzB4gh&ust=1737731286365000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCh1dSPjIsDFQAAAAAdAAAAABAE" alt="Obrázek 4">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gmvv.cz%2Finformace%2Fnasi-lide%2Fpedagogicky-sbor%2Fitem%2F2908-miroslav-vilcek&psig=AOvVaw10L0HbJbHIt0GUnIxzB4gh&ust=1737731286365000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCh1dSPjIsDFQAAAAAdAAAAABAE" alt="Obrázek 5">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gmvv.cz%2Finformace%2Fnasi-lide%2Fpedagogicky-sbor%2Fitem%2F2908-miroslav-vilcek&psig=AOvVaw10L0HbJbHIt0GUnIxzB4gh&ust=1737731286365000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCh1dSPjIsDFQAAAAAdAAAAABAE" alt="Obrázek 6">
+        </div>
+
+        <!-- Text pod obrázky -->
+        <footer>
+            Stránka pouze pro studijní účely!
+        </footer>
+    </div>
 </body>
 </html>
